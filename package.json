@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/jackietrillo/AzureStaticWebApp.git"
   },
-  "author": "",
+  "author": "Jackie Trillo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jackietrillo/AzureStaticWebApp/issues"
   },
-  "homepage": "https://github.com/jackietrillo/AzureStaticWebApp#readme"
+  "homepage": "https://github.com/jackietrillo/AzureStaticWebApp#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
