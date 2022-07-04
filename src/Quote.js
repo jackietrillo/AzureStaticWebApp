@@ -41,6 +41,7 @@ function Quote() {
       "Content-Type": "application/json",
     };
 
+    
     fetch("quotes.json", options)
       .then((response) => response.json())
       .then(
