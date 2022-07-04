@@ -41,7 +41,7 @@ function Quote() {
       "Content-Type": "application/json",
     };
 
-    fetch("http://localhost:3000/quotes.json", options)
+    fetch("https://azurestaticwebapp.jackietrillo.com/quotes.json", options)
       .then((response) => response.json())
       .then(
         (data) => {
@@ -82,7 +82,9 @@ function Quote() {
         {keyQuotes()}
         <h2>{item.q}</h2>
         <h5>
-          <center><i>{item.a}</i></center>
+          <center>
+            <i>{item.a}</i>
+          </center>
         </h5>
         {/*items.map((item) => (
           <li key={item.c}>{item.q}</li>
