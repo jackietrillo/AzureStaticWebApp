@@ -12,7 +12,7 @@ function Quote() {
       "Content-Type": "application/json",
     };
 
-    fetch("http://localhost:3000/quotes.json", options)
+    fetch("/quotes.json", options)
       .then((response) => response.json())
       .then((data) => {
         setLoaded(true);
@@ -41,7 +41,7 @@ function Quote() {
       "Content-Type": "application/json",
     };
 
-    fetch("https://azurestaticwebapp.jackietrillo.com/quotes.json", options)
+    fetch("/quotes.json", options)
       .then((response) => response.json())
       .then(
         (data) => {
