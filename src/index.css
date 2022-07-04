@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.2em;
+}
+
+body {
+  min-height: 100vh;
+  
+  font-family: 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family:  muli, sans, arial; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   color: #222;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%;   
+}
+
+header {
+  width: 100%;
+  padding: 0em;
+  background-color: #eee;    
+  display: flex;
+  justify-content: space-between;     
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;     
+  align-items: center;
+  padding-right: 5%;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%; 
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: #eee;   
+  text-align: center;
+  color:#ccc;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
