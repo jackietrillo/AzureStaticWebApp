@@ -41,7 +41,6 @@ function Quote() {
       "Content-Type": "application/json",
     };
 
-    
     fetch("quotes.json", options)
       .then((response) => response.json())
       .then(
@@ -57,7 +56,7 @@ function Quote() {
   };
 
   const getRandomQuote = () => {
-  //  console.log("getRandomQuote-loaded " + loaded);
+    console.log("getRandomQuote-loaded " + loaded);
     if (items.length > 0) {
       const randomIndex = Math.floor(Math.random() * 50);
       setItem(items[randomIndex]);
