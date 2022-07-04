@@ -1,9 +1,11 @@
-import Quote from "./Quote";
+import Intro from "./Components/Intro";
 
 function Content() {
-  return <main>    
-    <Quote />
-  </main>;
+  return (
+    <main>
+      <Intro />
+    </main>
+  );
 }
 
 export default Content;
