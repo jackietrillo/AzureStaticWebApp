@@ -5,11 +5,9 @@ const About = () => {
   return (
     <>
       <Header />
-      <main className="About">
+      <main>
         <h2>Contact</h2>
-        <p>
-            This is the contact page
-        </p>
+        <p>This is the contact page</p>
       </main>
       <Footer />
     </>

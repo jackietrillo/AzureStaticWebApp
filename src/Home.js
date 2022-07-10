@@ -1,15 +1,17 @@
 import Header from "./Header";
-import Home from "./Home";
 import Footer from "./Footer";
+import Intro from "./Components/Intro";
 
-function App(props) {
+function Home() {
   return (
     <>
       <Header />
-        <Home />
+       <main>
+          <Intro />
+       </main>   
       <Footer />
     </>
   );
 }
 
-export default App;
+export default Home;

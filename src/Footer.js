@@ -1,10 +1,14 @@
+import Quote from "./Components/Quote";
 
 function Footer() {
   const today = new Date();
 
   return (
-    <footer>      
-      <small>copyright &copy; {today.getFullYear()}</small>
+    <footer>
+      <Quote />
+      <p style={{ backgroundColor: "#888", color: "#fff" }}>
+        <small>copyright &copy; {today.getFullYear()}</small>
+      </p>
     </footer>
   );
 }

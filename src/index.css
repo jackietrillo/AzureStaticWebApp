@@ -8,24 +8,30 @@ html {
   font-size: 1.2em;
 }
 
+a {
+  color: #176ceb;
+  color:#141619;
+  text-decoration: underline;
+
+}
 body {
   min-height: 100vh;  
   font-family: 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-family:  muli, sans, arial; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   color: #222;
+   color: #141619;
    background-color: #fafafa;
 }
 
-header {
+.header {
   width: 100%;
   padding: 0em; 
   background-color: #eee;   
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   display: flex;
   justify-content: space-between;     
   align-items: center;
+  height: 6rem;
 }
 
 header > h1 {
@@ -34,8 +40,8 @@ header > h1 {
 
 @media (prefers-reduced-motion: no-preference) {
   .app-logo {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     animation: logo-spin infinite 20s linear;
   }
 }
@@ -67,20 +73,16 @@ main {
   flex-direction: column;
   background-color:#fafafa;
   width: 100%; 
+  padding: 2% 0 5% 10%;
 }
 
 footer {
-  position:absolute;
   width: 100%; 
   padding: 0.25em;
   background-color: #eee;   
   text-align: center;
   color:#888;
-   bottom:0;   
-   height:5%;   
-   
 }
-
 .card-container {
   flex-direction: row;
   justify-content: space-evenly;
@@ -101,7 +103,6 @@ footer {
   flex-direction: column;
   justify-content: stretch;
   align-items: normal;
-  padding: 5% 0 0 22%;
 }
 
 .big-heading {

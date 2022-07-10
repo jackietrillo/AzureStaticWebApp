@@ -1,0 +1,28 @@
+.skill-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+
+.skill {
+    display:inline-block;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 5%;
+}
+
+.skill img {
+   width: 200px;
+   height: 180px;
+}
+
+.skill span {
+    display:block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
