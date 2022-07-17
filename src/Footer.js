@@ -5,8 +5,8 @@ function Footer() {
 
   return (
     <footer>
-      <Quote />
-      <p style={{ backgroundColor: "#888", color: "#fff" }}>
+      
+      <p className="copy">
         <small>copyright &copy; {today.getFullYear()}</small>
       </p>
     </footer>

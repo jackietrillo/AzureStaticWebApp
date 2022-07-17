@@ -20,7 +20,7 @@
     "imageUrl": "images/javascript.png"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "jQuery",
     "imageUrl": "images/jquery.png"
   },
@@ -28,5 +28,15 @@
     "id": 6,
     "name": "node",
     "imageUrl": "images/node.png"
+  },
+  {
+    "id": 7,
+    "name": "React",
+    "imageUrl": "images/react.png"
+  },
+  {
+    "id": 8,
+    "name": "Sql Server",
+    "imageUrl": "images/sqlserver.png"
   }
 ]

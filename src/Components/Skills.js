@@ -8,7 +8,7 @@ export default function Skills() {
   const [skills, setSkills] = React.useState(skillData);
 
   const skillElements = skills.map((skill) => (
-    <div className="skill">
+    <div className="skill" key={skill.id}>
       <img src={skill.imageUrl}></img>
       <span>{skill.name}</span>
     </div>
@@ -18,7 +18,6 @@ export default function Skills() {
     <>
       <Header />
       <main>
-        {" "}
         <div className="skill-container">{skillElements} </div>
       </main>
       <Footer />

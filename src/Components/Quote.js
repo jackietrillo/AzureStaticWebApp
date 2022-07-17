@@ -5,8 +5,7 @@ function Quote() {
   const quote = quoteData[randomIndex];
   return (
     <>
-      <section className="py-5 text-center">
-        <small>Zen Quotes</small>
+      <section id="quote" className="py-5 text-center">
         <h5>
           <i>{quote.q}</i>
         </h5>

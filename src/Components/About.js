@@ -1,13 +1,16 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import Intro from "./Intro";
 
 const About = () => {
   return (
     <>
       <Header />
-      <main>    
-         This is the about page
+      <main>
+        <p>
+         I’m a software engineer specializing in building Web Applications in
+          C#/NET and React.
+        </p>
+        <p>I worked at Oracle for 10 years where I learned a lot about the Software Development Lifecycle</p>
       </main>
       <Footer />
     </>

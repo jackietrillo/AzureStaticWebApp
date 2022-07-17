@@ -2,6 +2,7 @@ npm commands
 npm init
 npm start
 npm install package --save
+npm run build
 
 git commands:
 git init
