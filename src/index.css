@@ -12,15 +12,19 @@ a {
   color: #176ceb;
   color:#141619;
   text-decoration: underline;
-
 }
+a:hover, a:focus {
+  color: #176ceb
+}
+
 body {  
   font-family: 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-family:  muli, sans, arial;   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
    color: #888888;
-   color: #141619;
+   color: #757575;
+   
    background-color: #fafafa;
 }
 
@@ -28,9 +32,9 @@ body {
   width: 100%;
   padding: 0em; 
   background-color: #fff;   
-  display: flex;
+  /* display: flex;
   justify-content: space-between;     
-  align-items: center;
+  align-items: center; */
   min-height: 15vh;
 }
 
@@ -38,9 +42,16 @@ header > h1 {
   color:#ccc; 
 }
 
+.home-image {
+    width: 100%;  
+      /* Add the blur effect */
+  /* filter: blur(3px);
+  -webkit-filter: blur(3px);  */
+}
+
 main { 
   display: block;
-  padding: 2%;
+  padding: 0 2% 2% 2% ;
   background-color:#fafafa;    
   width: 100%; 
   min-height: 48vh;
@@ -50,45 +61,71 @@ footer {
   position: relative;  
   padding: 0em;
   text-align: center;
-  color:#888;
   border-top:1px solid #eee
+}
+
+.section-title {
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #555555;
+  font-variant: small-caps;
+  padding: 20px 0;
 }
 
 .copy {  
   border-top:1px solid #eee
 }
 
-.intro-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: normal;
-  padding-left: 10%;
-}
 
-.big-heading {
-  margin: 0px;
-  font-size: clamp(20px, 8vw, 60px);
-}
+div#logo {
+  display:inline-block;
+  vertical-align: top;
 
-@media (prefers-reduced-motion: no-preference) {
-  .app-logo {
-    width: 100px;
-    height: 100px;
-    /* animation: logo-spin infinite 20s linear; */
-  }
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-logo {
+  width: 7rem;
+  height: 7rem;
 }
 
 #quote {
+  display: inline-block;
   font-size: 1rem;
-  color:#888;
+  width: 50%;
+  margin: 2% 0 0 3%;
+}
+
+.spacer {
+  width: 100px;
+  height: 2px;
+  margin: auto;
+  background-color: #5799e7;
+  margin-bottom: 2%;
+}
+
+#page-contact {
+  background: #eee;
+  padding: 2rem 0;
+}
+
+#page-contact a:hover {
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  color: red;
+}
+
+.contact-info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-round {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 0;
 }

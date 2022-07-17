@@ -6,8 +6,10 @@ const About = () => {
     <>
       <Header />
       <main>
-        <h2>Contact</h2>
-        <p>This is the contact page</p>
+        <h2 className="section-title">
+          <span>Contact</span>
+        </h2>
+        <div className="spacer"></div>
       </main>
       <Footer />
     </>

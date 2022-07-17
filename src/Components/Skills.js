@@ -9,7 +9,9 @@ export default function Skills() {
 
   const skillElements = skills.map((skill) => (
     <div className="skill" key={skill.id}>
-      <img src={skill.imageUrl}></img>
+      <a href={skill.targetUrl} target="_blank">
+        <img src={skill.imageUrl}></img>
+      </a>
       <span>{skill.name}</span>
     </div>
   ));
@@ -18,6 +20,8 @@ export default function Skills() {
     <>
       <Header />
       <main>
+        <h1 className="section-title">Skills</h1>
+        <div className="spacer"></div>
         <div className="skill-container">{skillElements} </div>
       </main>
       <Footer />

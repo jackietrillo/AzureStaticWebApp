@@ -1,3 +1,5 @@
+import "../CSS/intro.css";
+
 function Intro() {
   return (
     <div className="intro-container">
@@ -6,13 +8,13 @@ function Intro() {
       <br />
       <p>
         Welcome to my website. On this site you will find information about me,
-        my skills, and projects.
+        my skills, and my projects.
       </p>
       <p>
-        This site is coded completely by hand using Html5/CSS, JavaScript,
-        jQuery, React, Bootstrap and Nodejs. It is my first React project! It is
-        hosted completely for free on Azure Cloud as a Static Website. The
-        complete source can be found on GitHub.
+        This site is coded by hand using Html5/CSS, JavaScript, jQuery, React,
+        Bootstrap and Nodejs. It is my first React project! It is hosted for
+        free on Azure Cloud. The source code can be found on
+        GitHub.
       </p>
       <p>If you have any questions feel free to contact me!</p>
     </div>

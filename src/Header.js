@@ -3,13 +3,23 @@ import Quote from "./Components/Quote";
 
 function Header() {
   return (
-    <header className="header shadow-sm p-3 mb-5">
-      <a href="/">
-        <img src="images/logo.png" className="app-logo" />
-      </a>
-      <Quote />
-      <Menu />
-    </header>
+    <>
+      <header className="header shadow-lg p-3">
+        <div className="row">
+          <div className="col-10">
+            <div id="logo">
+              <a href="/">
+                <img src="images/logo.png" className="app-logo" />
+              </a>
+            </div>
+            <Quote />
+          </div>
+          <div className="col-2" style={{ textAlign: "right", margin: "auto" }}>
+            <Menu />
+          </div>
+        </div>
+      </header>
+    </>
   );
 }
 

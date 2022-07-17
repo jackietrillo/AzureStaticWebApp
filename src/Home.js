@@ -8,6 +8,7 @@ function Home() {
     <>
       <Header />
       <main>
+        <img className="home-image" src="images/home.jpg" />
         <Intro />
       </main>
       <Footer />

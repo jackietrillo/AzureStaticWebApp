@@ -1,42 +1,56 @@
 [
   {
     "id": 1,
-    "name": "C#",
-    "imageUrl": "images/csharp.png"
+    "name": "C#/NET",
+    "imageUrl": "images/csharp.png",
+    "targetUrl": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0"
   },
   {
     "id": 2,
     "name": "Html5",
-    "imageUrl": "images/html5.png"
+    "imageUrl": "images/html5.png",
+    "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     "id": 3,
     "name": "CSS",
-    "imageUrl": "images/css.png"
+    "imageUrl": "images/css.png",
+    "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     "id": 4,
     "name": "JavaScript",
-    "imageUrl": "images/javascript.png"
+    "imageUrl": "images/javascript.png",
+    "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "id": 5,
     "name": "jQuery",
-    "imageUrl": "images/jquery.png"
+    "imageUrl": "images/jquery.png",
+    "targetUrl": "https://api.jquery.com/"
   },
   {
     "id": 6,
-    "name": "node",
-    "imageUrl": "images/node.png"
+    "name": "node.js",
+    "imageUrl": "images/node.png",
+    "targetUrl": "https://nodejs.org/en/docs/"
   },
   {
     "id": 7,
     "name": "React",
-    "imageUrl": "images/react.png"
+    "imageUrl": "images/react.png",
+    "targetUrl": "https://reactjs.org/docs/getting-started.html"
   },
   {
     "id": 8,
     "name": "Sql Server",
-    "imageUrl": "images/sqlserver.png"
+    "imageUrl": "images/sqlserver.png",
+    "targetUrl": "https://docs.microsoft.com/en-us/sql/sql-server"
+  },
+  {
+    "id": 9,
+    "name": "Git",
+    "imageUrl": "images/git.png",
+    "targetUrl": "https://git-scm.com/docs"
   }
 ]

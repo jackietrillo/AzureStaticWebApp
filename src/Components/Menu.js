@@ -4,7 +4,7 @@ import "../CSS/menu.css";
 function Menu() {
   return (
     <>
-      <div className="pos-f-t">
+      <div style={{ display: "inline-block" }}>
         <nav className="navbar navbar-light">
           <button
             className="navbar-toggler"

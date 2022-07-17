@@ -11,14 +11,13 @@
     width: 200px;
     border-radius: 0.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    -webkit-animation: fadein 2s; 
+    /* -webkit-animation: fadein 2s; 
     -moz-animation: fadein 2s; 
      -ms-animation: fadein 2s; 
       -o-animation: fadein 2s;
-         animation: fadein 2s;
+         animation: fadein 2s; */
   }
 
   .menu-items > li {
     padding: 6%;
-
   }

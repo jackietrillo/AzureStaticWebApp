@@ -5,10 +5,10 @@ function Quote() {
   const quote = quoteData[randomIndex];
   return (
     <>
-      <section id="quote" className="py-5 text-center">
-        <h5>
+      <section id="quote">
+        <p>
           <i>{quote.q}</i>
-        </h5>
+        </p>
         <small>
           <center>-{quote.a}</center>
         </small>
