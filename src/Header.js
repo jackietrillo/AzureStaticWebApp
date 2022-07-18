@@ -4,7 +4,7 @@ import Quote from "./Components/Quote";
 function Header() {
   return (
     <>
-      <header className="header shadow-lg p-3">
+      <header className="header shadow-smn p-3">
         <div className="row">
           <div className="col-10">
             <div id="logo">

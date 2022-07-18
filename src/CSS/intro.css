@@ -11,6 +11,7 @@
   .big-heading {
     margin: 0px;
     font-size: clamp(20px, 8vw, 60px);
+    font-size:2rem;
     color: #555555;  
   }
   

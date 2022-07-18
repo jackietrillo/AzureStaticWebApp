@@ -13,8 +13,7 @@ function Intro() {
       <p>
         This site is coded by hand using Html5/CSS, JavaScript, jQuery, React,
         Bootstrap and Nodejs. It is my first React project! It is hosted for
-        free on Azure Cloud. The source code can be found on
-        GitHub.
+        free on Azure Cloud. The source code can be found on GitHub.
       </p>
       <p>If you have any questions feel free to contact me!</p>
     </div>

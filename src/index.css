@@ -44,10 +44,25 @@ header > h1 {
 
 .home-image {
     width: 100%;  
-      /* Add the blur effect */
-  /* filter: blur(3px);
-  -webkit-filter: blur(3px);  */
+    height: 325px;  
+   filter: blur(1.5px);
+  -webkit-filter: blur(1.5px); 
 }
+
+#home-menu {
+  list-style: none;
+  text-align: center;
+}
+
+#home-menu > li {
+  display: inline-block;
+  margin-right: 2%;  
+}
+#home-menu > li > a {
+  color: #176ceb;
+}
+
+
 
 main { 
   display: block;
@@ -65,7 +80,7 @@ footer {
 }
 
 .section-title {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 400;
   letter-spacing: 5px;
   text-align: center;
@@ -91,9 +106,9 @@ div#logo {
 
 #quote {
   display: inline-block;
-  font-size: 1rem;
-  width: 50%;
-  margin: 2% 0 0 3%;
+  /* font-size: 1rem; */
+  /* width: 80%; */
+  margin: 5% 0 0 5%;
 }
 
 .spacer {
