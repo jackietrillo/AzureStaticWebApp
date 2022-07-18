@@ -45,8 +45,8 @@ header > h1 {
 .home-image {
     width: 100%;  
     height: 325px;  
-   filter: blur(1.5px);
-  -webkit-filter: blur(1.5px); 
+   /* filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);  */
 }
 
 #home-menu {
