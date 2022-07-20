@@ -9,7 +9,7 @@ function Home() {
     <>
       <Header />
       <main>
-        <img className="home-image" src="images/homeBW.jpg" />
+        <img className="home-image" src="images/home-bw.jpg" />
         <Intro />
         <ul id="home-menu">
           <li>

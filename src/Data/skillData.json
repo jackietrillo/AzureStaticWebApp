@@ -2,31 +2,31 @@
   {
     "id": 1,
     "name": "C#/NET",
-    "imageUrl": "images/csharp.png",
+    "imageUrl": "images/skills/csharp.png",
     "targetUrl": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0"
   },
   {
     "id": 2,
     "name": "Html5",
-    "imageUrl": "images/html5.png",
+    "imageUrl": "images/skills/html5.png",
     "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     "id": 3,
     "name": "CSS",
-    "imageUrl": "images/css.png",
+    "imageUrl": "images/skills/css.png",
     "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     "id": 4,
     "name": "JavaScript",
-    "imageUrl": "images/javascript.png",
+    "imageUrl": "images/skills/javascript.png",
     "targetUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "id": 5,
     "name": "jQuery",
-    "imageUrl": "images/jquery.png",
+    "imageUrl": "images/skills/jquery.png",
     "targetUrl": "https://api.jquery.com/"
   },
   {
